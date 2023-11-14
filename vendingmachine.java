@@ -10,7 +10,7 @@ class Drink {
 }
 
 class Money {
-
+  int bill_type[] = {10,50,100,500,1000}; 
 }
 
 class vendingMachine {
