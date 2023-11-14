@@ -18,7 +18,7 @@ class vendingMachine {
 }
 
 class startVendingMachine {
-    public static void main(String[] args) {
+    public static void main() {
         Drink drink = new  Drink();
         drink.drinkMenu();
         HashMap<String, Drink> drinkMenu = new HashMap<>();
@@ -27,7 +27,7 @@ class startVendingMachine {
         drinkMenu.put("モンスターエナジー", new Drink(210, 5));
     }
 
-    public static void main(String[] args) {
+    public static void main(int[] args) {
         Money money = new Money();
         money.bill_type();
     }
