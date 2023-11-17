@@ -1,6 +1,14 @@
+import java.util.HashMap;
 class vendingMachine {
+  private int totalMoney; //インスタンス変数にした
+  public void initialize(int totalMoney) {
+    this.totalMoney = 0; 
+  }
   public static void drinks() {
-    
+    HashMap<String, Integer> hmap = new HashMap<String, Integer>();
+    hmap.put("コーラ", 160);
+    hmap.put("水", 100);
+    hmap.put("モンスター", 210);
   }
 
   public static void money() {
@@ -10,7 +18,6 @@ class vendingMachine {
   public static void system() {
     
   }
-
 }
 
 class startVendingMachine {
@@ -21,3 +28,7 @@ class startVendingMachine {
     vm.system();
   }
 }
+
+
+
+
